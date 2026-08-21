@@ -1,12 +1,13 @@
 # pages+docxls.yml
 # github.com/shenjuexiao
-# 20260820
+# 20260821
 
 # github.com/timlrx/tailwind-nextjs-starter-blog
 # github.com/timlrx/tailwind-nextjs-starter-blog/blob/main/.github/workflows/pages.yml
 
-# .github/workflows/pages+docxls.yml
 # Inspired from github.com/actions/starter-workflows/blob/main/pages/nextjs.yml
+
+# .github/workflows/pages+docxls.yml
 name: GitHub Pages
 
 on:
@@ -24,6 +25,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Build job
   build:
     runs-on: ubuntu-latest
     steps:
